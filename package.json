@@ -8,7 +8,7 @@
     "start": "node ./scraper.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
