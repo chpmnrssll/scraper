@@ -18,9 +18,9 @@ $ node ./scraper 1i6Lvzi6fUdDlszyy8HqO3joJ_hKEJ3CQT7_qA1rpc8Y
 ```
 ```
 Options:
---sheetName     [default: "Sheet1"]
---titleColumn   [default: "A"]
---titleRow      [default: "2"]
---resultColumn  [default: "B"]
---resultRow     [default: "2"]
+  --sheetName     [default: "Sheet1"]
+  --titleColumn   [default: "A"]
+  --titleRow      [default: "2"]
+  --resultColumn  [default: "B"]
+  --resultRow     [default: "2"]
 ```
