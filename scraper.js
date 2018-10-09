@@ -50,9 +50,9 @@ async function main () {
 }
 
 function writeCitations(auth, spreadsheetId, index, cited) {
-  const result = `=HYPERLINK("${cited.url}", "Cited by ${cited.count}")`;
-
   return new Promise((resolve, reject) => {
+    if (!cited) reject();
+    const result = `=HYPERLINK("${cited.url}", "Cited by ${cited.count}")`;
     sheets.spreadsheets.values.update({
       auth: auth,
       spreadsheetId: spreadsheetId,

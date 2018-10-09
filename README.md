@@ -14,7 +14,7 @@ On the first run it should open a new browser window for you to sign-in and auth
 You must pass in the spreadsheet ID as the first argument on the command line.
 
 ```
-$ npm run start 1i6Lvzi6fUdDlszyy8HqO3joJ_hKEJ3CQT7_qA1rpc8Y
+$ node ./scraper 1i6Lvzi6fUdDlszyy8HqO3joJ_hKEJ3CQT7_qA1rpc8Y
 ```
 ```
 Options:
